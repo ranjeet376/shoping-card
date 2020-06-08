@@ -1,0 +1,107 @@
+.App {
+    text-align: center;
+  }
+  .main-list{
+    align-items: center;
+    margin-left:35% !important;
+    margin-right:10% !important;
+    margin-bottom: 10% !important;
+  }
+  
+  .btn{
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+    background:lightgreen;
+    flex: 1;
+    
+  }
+  .btn{
+    border-radius: 10px;
+    margin-left: 50px;
+    height: 35px;
+    width: 150px;
+    background:lightgreen;
+    flex: 1;
+  }
+  .add-button{ 
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin-left: 10px;
+     height: 30px;
+    width:  30px;
+  }
+  .sub-button1{ 
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin-left: 120px;
+     height: 30px;
+    width:  30px;  
+  }
+  
+  .button{
+    display:flex !important;
+    flex-direction: row !important;
+    margin-top: 20px;
+  }
+  .json-quantity{
+    color: red;
+    margin-left: 10px;
+    margin-top: 1px;
+  }
+  
+  
+  /* Item css */
+  .card{
+    display:flex !important;
+    flex-direction: row !important;
+    margin-top:5% !important;
+    
+  
+  }
+  /* .mt-1{
+  margin-top:-2% !important;
+ 
+}
+.ml-89{
+  margin-top:-2% !important;
+  margin-left: -89% !important;
+} */
+  
+  .product-details{
+    display: flex !important;
+    flex-direction: column;
+  }
+  .brand-name{
+    color:green !important;
+  }
+  .p-view{
+    display: flex !important;
+    flex-direction: column;
+  }
+  .hr{
+    color:red !important;
+    height:1px !important;
+    width:70% !important;
+    background-color:blue;
+    margin-top:5% !important;
+    margin-bottom:2% !important;
+   
+  }
+  .items-lists{
+    position: static;
+    margin-top:3% !important;
+  }
+  
+  .product{
+    text-align: left !important;
+    margin-top:-2% !important;
+  }
+  .product1{
+    text-align: left !important;
+    margin-top:-2% !important;
+    text-decoration: line-through;
+  }
+  .brand{
+    color:lightgreen;
+  }

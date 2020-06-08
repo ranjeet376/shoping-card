@@ -1,0 +1,134 @@
+.mainpage{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 80px;
+    width: 560px;
+    margin-left: 30% !important;
+    height: 70px;
+    background-color: blueviolet;
+    position: fixed;
+    top: 88%;
+  
+}
+.Qty{
+    margin-top: 2px;
+    margin-left: 5px;
+    flex-direction: row;
+}
+.Total{
+    margin-top: 2px;
+    margin-left: 40px;
+    text-align: left;
+}
+.btn-checkout{
+    margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+    margin-left: 200px;
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+    background:lightgreen;
+    flex: 1;
+    margin-bottom: 50px;
+    }
+
+@media only screen and (max-width:823px) and (min-width:500px){
+    .mainpage{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row; 
+        margin-bottom: 80px;
+        width: 450px;
+        margin-left: 20% !important;
+        height: 70px;
+        position: fixed;
+        top: 88%;
+        background-color: red;
+    }
+    .Qty{
+        margin-top: 2px;
+        margin-left: 5px;
+        flex-direction: row;
+    }
+    .Total{
+        margin-top: 2px;
+        margin-left: 40px;
+        text-align: left;
+    }
+    .btn-checkout{
+        margin-top: 15px;
+        float: right;
+        margin-right: 20px;
+        margin-left: 200px;
+        border-radius: 10px;
+        height: 35px;
+        width: 150px;
+        background:lightgreen;
+        flex: 1;
+        margin-bottom: 50px;
+        } 
+}
+
+@media only screen and (max-width:580px) and (min-width:300px){
+    .mainpage{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row; 
+    
+        margin-bottom: 80px;
+        width: 430px;
+        margin-left: 10% !important;
+        height: 70px;
+        position: fixed;
+        top: 88%;
+        background-color: yellow;
+    }
+    .Qty{
+        margin-top: 2px;
+        margin-left: 5px;
+        flex-direction: row;
+    }
+    .Total{
+        margin-top: 2px;
+        margin-left: 40px;
+        text-align: left;
+    }
+    .btn-checkout{
+        margin-top: 15px;
+        float: right;
+        margin-right: 20px;
+        margin-left: 200px;
+        border-radius: 10px;
+        height: 35px;
+        width: 150px;
+        background:lightgreen;
+        flex: 1;
+        margin-bottom: 50px;
+        } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
